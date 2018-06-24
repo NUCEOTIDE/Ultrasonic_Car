@@ -13,7 +13,7 @@ class Movement{
     int leftMotor_speed;
 };
 void Movement::turn(int turningAngle){
-  if(){
+  if(true){
     moveAngle=turningAngle;
   }
 
