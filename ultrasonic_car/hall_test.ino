@@ -3,7 +3,7 @@ void hall_initial(){
 }
 int hall_recive(){
   Serial.println(analogRead(_hallEffectorPin));
-  delay(100);
+  delay(10);
   return analogRead(_hallEffectorPin); 
 }
 

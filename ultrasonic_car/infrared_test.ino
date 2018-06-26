@@ -6,9 +6,9 @@ void infrared_emit(){
   //Serial.println(digitalRead(_emitPin));
 }
 int infrared_recive(){
-  int data=analogRead(_recivePin);
+  infrared_data=analogRead(_recivePin);
   delay(5);
-  return data;
+  return infrared_data;
 }
 void infrared_initial(){
   pinMode(_emitPin,OUTPUT);
