@@ -18,7 +18,7 @@ int ultrasonic_diastimeter(){
     Timeout---超时时间，单位微秒，数据类型为无符号长整型。
    */
    temp_distance=float(pulseIn(_echoPin,HIGH)*17/1000);
-   Serial.println(temp_distance);
+   //Serial.println(temp_distance);
    //Serial.println("cm");
   return temp_distance;
 }
