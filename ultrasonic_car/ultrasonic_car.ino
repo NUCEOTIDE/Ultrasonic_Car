@@ -28,8 +28,8 @@ float temp_distance=0;
 Servo writerServo;
 Servo scannerServo;
 //main function for ultrasonic little car
-//Motor rightMotor(_rightMotorPin);
-//Motor leftMotor(_leftMotorPin);
+Motor rightMotor(_rightMotorPin);
+Motor leftMotor(_leftMotorPin);
 char carDirection='F';
 
 
